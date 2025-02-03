@@ -105,17 +105,8 @@ def news():
         talk('today '+day[i]+' news is. :'+head[i])
 
 def list(names):
-    if(names=='sandeep'):
-        number='9502235033'
-    elif(names=='goutham'):
-        number='7095028981'
-    elif(names=='brother'):
-        number='7095722924'
-    elif(names=='vijay'):
-        number='9390680326'
-    else:
-        talk('Sorry sir, name is not in the list. Tell me the number')
-        number=get_info()
+    talk('Sorry sir, name is not in the list. Tell me the number')
+    number=get_info()
     return '+91'+number
 
 def morning():
